@@ -27,4 +27,4 @@ script:
   # - make test
   - sudo make 
   - sudo make install
-  - sudo source /usr/local/gromacs/bin/GMXRC
+  - sudo /bin/bash -c source /usr/local/gromacs/bin/GMXRC
