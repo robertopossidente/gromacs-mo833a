@@ -11,6 +11,7 @@ before_script:
   - sudo apt-get -y install curl
   - sudo apt-get -y install libssl-dev
   - sudo apt-get -y install doxygen
+  - sudo apt-get -y install libclang1-9
   # create a build folder for the out-of-source build
   - mkdir build
   # switch to build directory
