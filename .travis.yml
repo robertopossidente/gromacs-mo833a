@@ -25,6 +25,6 @@ script:
   #- make
   # if the project uses ctest we can run the tests like this
   # - make test
-  - make 
-  - make install
-  - source /usr/local/gromacs/bin/GMXRC
+  - sudo make 
+  - sudo make install
+  - sudo source /usr/local/gromacs/bin/GMXRC
