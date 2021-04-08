@@ -4,8 +4,8 @@ compiler:
   - gcc
 
 before_script:
-  - apt-get -y install build-essential
-  - apt-get -y install cmake
+  - sudo apt-get -y install build-essential
+  - sudo apt-get -y install cmake
   # create a build folder for the out-of-source build
   - mkdir build
   # switch to build directory
